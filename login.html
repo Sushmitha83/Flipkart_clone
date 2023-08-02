@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN_Flipkart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NOW AM CREATING A CONTAINER -->
+    <div class="container">
+        <!-- NOW AM CREATING A FORM -->
+        <form action="#" onsubmit="return validationForm()">
+            <div class="login-text">
+                <h1>login</h1>
+            </div>
+            <div class="text-box">
+                <p>UserName</p>
+                <input type="text" id="user" placeholder="Enter user name" autocomplete="none">
+                <!-- and now an creating other div for error  -->
+                <div class="error">
+                    <p id="user_error"></p>
+                </div>
+            </div>
+            <div class="text-box">
+                <p>Password</p>
+                <input type="password" id="password" placeholder="enter password">
+                <!-- and now an creating other div for error  -->
+                <div class="error">
+                    <p id="pass_error"></p>
+                </div>
+            </div>
+            <!-- NOW CREATING OTHER DIV FOR SING IN  -->
+            <div class="sign">
+                <input type="submit" value="sign in">
+            </div>
+            <!-- NOW AM CREATING OTHER DIV FOR RESET DATA -->
+
+            <div class="reset">
+                <input type="reset" value="clear">
+            </div>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+
+ </body>
+
+</html>
